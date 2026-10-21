@@ -59,6 +59,9 @@ flowchart TD
 
 * **Drawbacks:** Sensitive to chunk size, susceptible to hallucination if retrieval fails, lacks re-ranking or query expansion.
 
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/0fba8863-ffd8-4783-96bd-58ce31b17aaf" />
+
+
 ## 2. Advanced RAG
 
 Advanced RAG introduces **Pre-Retrieval** (e.g., query rewriting, expansion) and **Post-Retrieval** (e.g., re-ranking, chunk compression) optimization steps to address the limitations of Naïve RAG.
@@ -115,6 +118,9 @@ flowchart TD
 * **Benefits:** Dramatically reduces hallucinations, improves precision, handles ambiguous queries better.
 
 * **Drawbacks:** Increased latency due to re-ranking/rewriting passes; higher compute costs.
+
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/860a2944-ea97-4af9-865c-bf028b5dd0b3" />
+
 
 ## 3. Modular RAG
 
@@ -220,6 +226,9 @@ flowchart TD
 
 * **Drawbacks:** High indexing costs (requires significant LLM usage to build graph networks), complex graph maintenance.
 
+* <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/15a22672-32a3-4f73-a7ba-69737ac5c13a" />
+
+
 ## 5. Agentic RAG
 
 Agentic RAG empowers an autonomous agent driven by an LLM to determine *how* and *when* to search, evaluate retrieved context, formulate sub-queries, and iteratively gather information until it has sufficient knowledge to answer.
@@ -269,6 +278,9 @@ flowchart TD
 * **Benefits:** Outstanding for complex, multi-part, and open-ended research queries.
 
 * **Drawbacks:** High latency and potential token cost explosion due to multi-step reasoning loops; risk of getting stuck in infinite execution loops.
+
+* <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/35aa6aa5-49d4-40af-a570-fd0f30bbb7d5" />
+
 
 ## 6. Corrective RAG (CRAG) & Self-RAG
 
